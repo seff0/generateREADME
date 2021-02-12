@@ -56,7 +56,7 @@ ${data.testing}
 
 ## QUESTIONS
 
-Please direct questions to: ${data.github} on github or ${data.email} via email.
+Please direct questions to: [GitHub](https://github.com/${data.github}) or ${data.email} via email.
 `;
 }
 
