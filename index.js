@@ -52,14 +52,12 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), (error) =>
     error ? console.error(error) : console.log("Success, README generated.")
   );
 }
 
-// TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((data) => {
     let title = `${data.title}`.replace(/\s+/g, "");
@@ -67,5 +65,4 @@ function init() {
   });
 }
 
-// Function call to initialize app
 init();
