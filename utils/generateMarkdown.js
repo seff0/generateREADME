@@ -14,6 +14,49 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## DESCRIPTION
+
+Repo is owned by ${data.github}.
+
+${data.description}
+
+## TABLE OF CONTENTS
+
+[DESCRIPTION](#description)
+
+[INSTALLATION-NOTES](#installation-notes)
+
+[USAGE-NOTES](#usage-notes)
+
+[LICENSE](#license)
+
+[HOW-TO-CONTRIBUTE](#how-to-contribute)
+
+[TESTING-NOTES](#testing-notes)
+
+[QUESTIONS](#questions)
+
+## INSTALLATION-NOTES
+
+${data.installation}
+
+## USAGE-NOTES
+
+${data.usage}
+
+## LICENSE
+
+## HOW-TO-CONTRIBUTE
+
+${data.contributions}
+
+## TESTING-NOTES
+
+${data.testing}
+
+## QUESTIONS
+
+Please direct questions to: ${data.github} on github or ${data.email} via email.
 `;
 }
 
