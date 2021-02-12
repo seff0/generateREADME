@@ -34,12 +34,12 @@ const questions = [
     message: "Enter any testing instructions.",
     name: "testing",
   },
-  {
-    type: "list",
-    message: "Which license would you like to use?",
-    choices: [],
-    name: "license",
-  },
+  //   {
+  //     type: "list",
+  //     message: "Which license would you like to use?",
+  //     choices: [],
+  //     name: "license",
+  //   },
   {
     type: "input",
     message: "Enter your GitHub username.",
@@ -60,7 +60,12 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((data) => {
+    let title = `${data.title}`.replace(/\s+/g, "");
+    writeToFile(`${title}.md`, data);
+  });
+}
 
 // Function call to initialize app
 init();
