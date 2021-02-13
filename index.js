@@ -34,12 +34,17 @@ const questions = [
     message: "Enter any testing instructions.",
     name: "testing",
   },
-  //   {
-  //     type: "list",
-  //     message: "Which license would you like to use?",
-  //     choices: [],
-  //     name: "license",
-  //   },
+  {
+    type: "list",
+    message: "Which license would you like to use?",
+    choices: ["MIT", "ISC", "Apache"],
+    name: "license",
+  },
+  {
+    type: "input",
+    message: "Enter your full name for licensing.",
+    name: "fullName",
+  },
   {
     type: "input",
     message: "Enter your GitHub username.",
