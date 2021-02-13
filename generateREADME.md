@@ -1,42 +1,42 @@
 # generateREADME
 
-  ## DESCRIPTION
+## DESCRIPTION
 
-  Repo is owned by seff0.
+Repo is owned by seff0.
 
-  This command line application asks the user several questions pertaining to their project and dynamically creates a markdown file including license.
+This command line application asks the user several questions pertaining to their project and dynamically creates a markdown file including license. This markdown file was created with this generator.
 
-  ## TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
-  [DESCRIPTION](#description)
+[DESCRIPTION](#description)
 
-  [INSTALLATION-NOTES](#installation-notes)
+[INSTALLATION-NOTES](#installation-notes)
 
-  [USAGE-NOTES](#usage-notes)
+[USAGE-NOTES](#usage-notes)
 
-  [LICENSE](#license)
+[LICENSE](#license)
 
-  [HOW-TO-CONTRIBUTE](#how-to-contribute)
+[HOW-TO-CONTRIBUTE](#how-to-contribute)
 
-  [TESTING-NOTES](#testing-notes)
+[TESTING-NOTES](#testing-notes)
 
-  [QUESTIONS](#questions)
+[QUESTIONS](#questions)
 
-  ## INSTALLATION-NOTES
+## INSTALLATION-NOTES
 
-  npm i
+npm i
 
-  ## USAGE-NOTES
+## USAGE-NOTES
 
-  No usage notes.
+No usage notes.
 
-  ## LICENSE
+## LICENSE
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [View MIT License on opensource.org](https://opensource.org/licenses/MIT)
+[View MIT License on opensource.org](https://opensource.org/licenses/MIT)
 
-  MIT License
+MIT License
 
     Copyright (c) 2021, Seth Hill
 
@@ -58,15 +58,14 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-  ## HOW-TO-CONTRIBUTE
+## HOW-TO-CONTRIBUTE
 
-  If you would like to contribute, please contact me. 
+If you would like to contribute, please contact me.
 
-  ## TESTING-NOTES
+## TESTING-NOTES
 
-  No testing notes.
+No testing notes.
 
-  ## QUESTIONS
+## QUESTIONS
 
-  Please direct questions to: [My GitHub](https://github.com/seff0) or seth.h971@gmail.com via email.
-  
+Please direct questions to: [My GitHub](https://github.com/seff0) or seth.h971@gmail.com via email.
