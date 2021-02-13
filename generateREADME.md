@@ -28,7 +28,11 @@ npm i
 
 ## USAGE-NOTES
 
-No usage notes.
+Invoke this application from the command line using:
+
+```bash
+node index.js
+```
 
 ## LICENSE
 
