@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((data) => {
     let title = `${data.title}`.replace(/\s+/g, "");
-    writeToFile(`${title}.md`, data);
+    writeToFile(`README.md`, data);
   });
 }
 
