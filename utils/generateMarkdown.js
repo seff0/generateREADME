@@ -1,5 +1,6 @@
 const moment = require("moment");
 
+// renders a badge at the top of the readme for whichever license you chose
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
@@ -13,6 +14,7 @@ function renderLicenseBadge(license) {
   }
 }
 
+// renders a link to opensource.org on whichever license you chose on
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
@@ -26,6 +28,7 @@ function renderLicenseLink(license) {
   }
 }
 
+// this function renders the license literature into the readme files. adds a ton of lines to both the code and readme, probably something i will adjust moving forward
 function renderLicenseSection(data) {
   switch (data.license) {
     case "MIT":
@@ -273,6 +276,7 @@ function renderLicenseSection(data) {
   }
 }
 
+// generateMarkdown is the function that does all the work on the readme. just one large template literal
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -330,4 +334,5 @@ function generateMarkdown(data) {
   `;
 }
 
+// make sure we can call generateMarkdown from the index.js
 module.exports = generateMarkdown;

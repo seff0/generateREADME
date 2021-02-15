@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// array of questions ot be presented to the user
 const questions = [
   {
     type: "input",
@@ -57,17 +58,21 @@ const questions = [
   },
 ];
 
+// write function to be called after inquirer prompts
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), (error) =>
     error ? console.error(error) : console.log("Success, README generated.")
   );
 }
 
+// run inquirer prompts and write the results to a new file.
 function init() {
   inquirer.prompt(questions).then((data) => {
-    let title = `${data.title}`.replace(/\s+/g, "");
-    writeToFile(`README.md`, data);
+    // this line takes the title entered by the user and removes all spaces to pass into the fileName
+    let fileName = `${data.title}`.replace(/\s+/g, "");
+    writeToFile(`${fileName}.md`, data);
   });
 }
 
+// invoke init
 init();
