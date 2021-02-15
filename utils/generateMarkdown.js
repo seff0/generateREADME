@@ -280,6 +280,8 @@ function generateMarkdown(data) {
 
   Repo is owned by ${data.github}.
 
+  ${renderLicenseBadge(data.license)}
+
   ${data.description}
 
   ## TABLE OF CONTENTS
@@ -307,8 +309,6 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## LICENSE
-
-  ${renderLicenseBadge(data.license)}
 
   ${renderLicenseLink(data.license)}
 
